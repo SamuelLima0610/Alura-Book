@@ -17,7 +17,7 @@
 }
 
 .topicos__item{
-    margin: 1em 0.5em;
+    margin: 0.5em;
 }
 
 .topicos__item{
@@ -35,5 +35,11 @@
     }
     .topicos__item{
         font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .topicos{
+        padding: 3em 30vw;
     }
 }
